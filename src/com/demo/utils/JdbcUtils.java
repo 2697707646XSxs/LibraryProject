@@ -6,12 +6,6 @@ import java.io.InputStream;
 import java.sql.*;
 import java.util.Properties;
 
-/**
- * Created by ForMe
- * com.demo.utils
- * 2018/12/10
- * 17:09
- */
 public class JdbcUtils {
     private static String URL = null;
     private static String ROOT = null;

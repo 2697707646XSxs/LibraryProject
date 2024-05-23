@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16c12b43-2b5b-40be-a596-c38f648f6586" name="Changes" comment="" />
+    <list default="true" id="16c12b43-2b5b-40be-a596-c38f648f6586" name="Changes" comment="2024.5.23">
+      <change beforePath="$PROJECT_DIR$/src/com/demo/utils/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/utils/JdbcUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/library.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +46,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Tomcat Server.borrowBook.jsp.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/文档/GitHub/LibraryProject",
@@ -76,7 +80,25 @@
       <updated>1716449474446</updated>
       <workItem from="1716449475617" duration="1303000" />
       <workItem from="1716453791984" duration="7000" />
+      <workItem from="1716453803654" duration="1476000" />
     </task>
+    <task id="LOCAL-00001" summary="2024.5.23">
+      <option name="closed" value="true" />
+      <created>1716453863152</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716453863152</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2024.5.23">
+      <option name="closed" value="true" />
+      <created>1716455576033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716455576033</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="2024.5.23" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.5.23" />
   </component>
 </project>

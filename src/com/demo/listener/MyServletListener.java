@@ -9,12 +9,6 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Enumeration;
 
-/**
- * Created by ForMe
- * com.demo.listener
- * 2018/12/10
- * 21:37
- */
 
 /**
  *
