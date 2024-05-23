@@ -11,18 +11,14 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
 
-/**
- * Created by ForMe
- * ${PACKAGE_NAME}
- * 2019/1/11
- * 16:25
- */
 @WebServlet(name = "Ajax_Test_Servlet")
 public class Ajax_Test_Servlet extends HttpServlet {//用于注册界面检查
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doGet(request,response);
     }
 
+    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=UTF-8");
