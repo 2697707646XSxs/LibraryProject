@@ -14,8 +14,8 @@
   <center>
     <h1>欢迎使用本图书管理系统!</h1>
     <hr>
-    <a href="login.jsp"><font size="5">登录</font></a><br><br>
-    <a href="register.jsp"><font size="5">注册</font></a><br>
+    <a href="login.jsp">登录</a><br><br>
+    <a href="register.jsp">注册</a><br>
   </center>
 
   </body>
