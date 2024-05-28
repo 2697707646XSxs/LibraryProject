@@ -25,10 +25,10 @@
     else
         out.write("《" + request.getParameter("book_name") + "》" + "已全部被借阅");
 %><br><br>
-<a href="/returnBook.jsp">还书</a><br>
-<a href="/borrowBook.jsp">借书</a><br>
-<a href="/loginout.jsp">注销</a><br><br>
-<a href="/getmessage.jsp">查看借阅情况</a>
+<a href="${pageContext.request.contextPath}/returnBook.jsp">还书</a><br>
+<a href="${pageContext.request.contextPath}/borrowBook.jsp">借书</a><br>
+<a href="${pageContext.request.contextPath}/loginout.jsp">注销</a><br><br>
+<a href="${pageContext.request.contextPath}/getmessage.jsp">查看借阅情况</a>
 
 </body>
 </html>

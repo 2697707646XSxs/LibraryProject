@@ -21,8 +21,8 @@
         //out.println("<br>");
     }
 %><br><br>
-<a href="/returnBook.jsp">还书</a><br>
-<a href="/borrowBook.jsp">借书</a><br>
-<a href="/loginout.jsp">注销</a>
+<a href="${pageContext.request.contextPath}/returnBook.jsp">还书</a><br>
+<a href="${pageContext.request.contextPath}/borrowBook.jsp">借书</a><br>
+<a href="${pageContext.request.contextPath}/loginout.jsp">注销</a>
 </body>
 </html>

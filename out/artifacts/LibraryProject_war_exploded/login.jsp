@@ -13,7 +13,7 @@
 <body>
 <div style="text-align:center;margin-top:120px">
     <%--<h2>ForMe的主页</h2>--%>
-    <form action="LoginServlet" method="post">
+    <form action="${pageContext.request.contextPath}/LoginServlet" method="post">
     <table style="margin-left:40%">
         <marquee width="200" scrolldelay="250">用户登录</marquee>
 
