@@ -743,7 +743,7 @@
     </schema>
     <schema id="233" parent="1" name="book">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-05-28.13:41:52</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-05-28.14:49:23</LastIntrospectionLocalTimestamp>
       <CollationName>utf8_general_ci</CollationName>
     </schema>
     <user id="234" parent="1" name="root">
@@ -836,5 +836,13 @@
       <DasType>varchar(50)|0s</DasType>
       <Position>6</Position>
     </column>
+    <index id="255" parent="239" name="reader_pk">
+      <ColNames>name</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="256" parent="239" name="reader_pk">
+      <UnderlyingIndexName>reader_pk</UnderlyingIndexName>
+    </key>
   </database-model>
 </dataSource>
