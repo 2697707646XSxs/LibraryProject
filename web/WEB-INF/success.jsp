@@ -13,18 +13,18 @@
 <body>
 <%
     String name = request.getParameter("name");
-    session.setAttribute("name",name);
+    session.setAttribute("name", name);
 %>
-<center>
-<h1>登录成功</h1>
-<hr>
-<a href="/showBooks.jsp">查看剩余书籍情况</a>
-<br>
-<a href="/returnBook.jsp">还书</a><br>
-<a href="/borrowBook.jsp">借书</a><br>
-<br>
-<a href="/loginout.jsp">注销</a><br><br>
+<div style="text-align:center">
+    <h1>登录成功</h1>
+    <hr>
+    <a href="/showBooks.jsp">查看剩余书籍情况</a>
+    <br>
+    <a href="/returnBook.jsp">还书</a><br>
+    <a href="/borrowBook.jsp">借书</a><br>
+    <br>
+    <a href="/loginout.jsp">注销</a><br><br>
     <a href="/getmessage.jsp">查看借阅情况</a>
-</center>
+</div>
 </body>
 </html>
