@@ -15,7 +15,7 @@
             <input type="submit" value="借阅">
         </tr>
     </table>
-    <a href="/loginout.jsp">注销</a>
+    <a href="${pageContext.request.contextPath}/loginout.jsp">注销</a>
 </form>
 </div>
 </body>
