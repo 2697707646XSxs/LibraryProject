@@ -29,6 +29,5 @@
 <a href="${pageContext.request.contextPath}/borrowBook.jsp">借书</a><br>
 <a href="${pageContext.request.contextPath}/loginout.jsp">注销</a><br><br>
 <a href="${pageContext.request.contextPath}/getmessage.jsp">查看借阅情况</a>
-
 </body>
 </html>
