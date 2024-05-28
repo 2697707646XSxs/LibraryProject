@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16c12b43-2b5b-40be-a596-c38f648f6586" name="Changes" comment="2024.5.28" />
+    <list default="true" id="16c12b43-2b5b-40be-a596-c38f648f6586" name="Changes" comment="2024.5.28">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +67,7 @@
     "Tomcat Server.index.jsp.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/文档/GitHub/LibraryProject",
+    "last_opened_file_path": "E:/杂七杂八作业文件/jsp期末大作业/Wed应用开发/Wed应用开发",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -197,7 +200,8 @@
       <workItem from="1716462106957" duration="194000" />
       <workItem from="1716462315575" duration="596000" />
       <workItem from="1716609648090" duration="19000" />
-      <workItem from="1716875834285" duration="2577000" />
+      <workItem from="1716875834285" duration="5822000" />
+      <workItem from="1716895454414" duration="2750000" />
     </task>
     <task id="LOCAL-00001" summary="2024.5.23">
       <option name="closed" value="true" />
@@ -271,7 +275,31 @@
       <option name="project" value="LOCAL" />
       <updated>1716878367091</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2024.5.28">
+      <option name="closed" value="true" />
+      <created>1716878524388</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716878524388</updated>
+    </task>
+    <task id="LOCAL-00011" summary="2024.5.28">
+      <option name="closed" value="true" />
+      <created>1716880082858</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716880082858</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2024.5.28">
+      <option name="closed" value="true" />
+      <created>1716881518995</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716881518995</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
