@@ -10,8 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16c12b43-2b5b-40be-a596-c38f648f6586" name="Changes" comment="2024.5.28">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/dao/BookDAo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/dao/BookDAo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/dao/UserDAo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/dao/UserDAo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +65,13 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat Server.Tomcat 9.0.24.executor": "Run",
+    "Tomcat Server.Tomcat 9.0.24.executor": "Debug",
     "Tomcat Server.borrowBook.jsp.executor": "Run",
     "Tomcat Server.defeat.jsp.executor": "Run",
     "Tomcat Server.index.jsp.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/杂七杂八作业文件/jsp期末大作业/Wed应用开发/Wed应用开发",
+    "last_opened_file_path": "E:/idea_study/jsp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -201,7 +205,8 @@
       <workItem from="1716462315575" duration="596000" />
       <workItem from="1716609648090" duration="19000" />
       <workItem from="1716875834285" duration="5822000" />
-      <workItem from="1716895454414" duration="2750000" />
+      <workItem from="1716895454414" duration="3323000" />
+      <workItem from="1716900528110" duration="2400000" />
     </task>
     <task id="LOCAL-00001" summary="2024.5.23">
       <option name="closed" value="true" />
@@ -299,7 +304,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716881518995</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2024.5.28">
+      <option name="closed" value="true" />
+      <created>1716898391672</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716898391672</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2024.5.28">
+      <option name="closed" value="true" />
+      <created>1716898408136</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716898408136</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,5 +342,21 @@
     <MESSAGE value="2024.5.23" />
     <MESSAGE value="2024.5.28" />
     <option name="LAST_COMMIT_MESSAGE" value="2024.5.28" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/demo/dao/UserDAo.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/demo/dao/UserDAo.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

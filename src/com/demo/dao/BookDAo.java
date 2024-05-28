@@ -8,12 +8,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- * Created by ForMe
- * com.demo.dao
- * 2018/12/11
- * 12:43
- */
 public class BookDAo {
     public void addBook(Book book){//添加图书
         Connection connection = null;

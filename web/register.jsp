@@ -38,7 +38,7 @@
 <body>
 
 <div style="text-align:center;margin-top: 120px">
-    <form action="/RegisterServlet" method="post">
+    <form action="${pageContext.request.contextPath}/RegisterServlet" method="post">
         <table style="margin-left:40%">
             <caption>用户注册</caption>
             <tr>

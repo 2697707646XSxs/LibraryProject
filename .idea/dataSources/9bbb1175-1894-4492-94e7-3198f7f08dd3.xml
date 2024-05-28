@@ -743,7 +743,7 @@
     </schema>
     <schema id="233" parent="1" name="book">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-05-23.10:54:58</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-05-28.13:41:52</LastIntrospectionLocalTimestamp>
       <CollationName>utf8_general_ci</CollationName>
     </schema>
     <user id="234" parent="1" name="root">
@@ -829,11 +829,11 @@
       <Position>4</Position>
     </column>
     <column id="253" parent="239" name="telephone">
-      <DasType>int(15)|0s</DasType>
+      <DasType>varchar(50)|0s</DasType>
       <Position>5</Position>
     </column>
     <column id="254" parent="239" name="email">
-      <DasType>varchar(15)|0s</DasType>
+      <DasType>varchar(50)|0s</DasType>
       <Position>6</Position>
     </column>
   </database-model>
