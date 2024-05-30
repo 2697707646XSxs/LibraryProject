@@ -8,6 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.swing.*;
 import java.io.IOException;
 
 @WebServlet(name = "RegisterServlet")
@@ -38,7 +39,7 @@ public class RegisterServlet extends HttpServlet {
 
         UserDAo userDAo = new UserDAo();
         userDAo.addUser(user);
-        System.out.println("注册成功");
+        JOptionPane.showMessageDialog(null, "注册成功，即将返回登录页面", "提示", JOptionPane.PLAIN_MESSAGE);
         request.getRequestDispatcher("login.jsp").forward(request,response);
 
     }
