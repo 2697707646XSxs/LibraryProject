@@ -1,11 +1,5 @@
 package com.demo.bean;
 
-/**
- * Created by ForMe
- * com.demo.bean
- * 2018/12/10
- * 17:00
- */
 public class Book {
     private int book_num;
     private String book_name;
