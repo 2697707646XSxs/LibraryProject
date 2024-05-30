@@ -1,11 +1,5 @@
 package com.demo.bean;
 
-/**
- * Created by ForMe
- * com.demo.bean
- * 2018/12/10
- * 17:02
- */
 public class User {
     private String name;
     private String password;
