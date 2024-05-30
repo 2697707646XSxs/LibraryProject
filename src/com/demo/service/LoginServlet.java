@@ -11,12 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-/**
- * Created by ForMe
- * ${PACKAGE_NAME}
- * 2018/12/10
- * 18:11
- */
 @WebServlet(name = "LoginServlet")
 public class LoginServlet extends HttpServlet {
     @Override
