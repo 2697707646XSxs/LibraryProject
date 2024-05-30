@@ -12,12 +12,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Created by ForMe
- * com.demo.dao
- * 2018/12/11
- * 16:59
- */
+
 public class MessageDAo {
     public List<Message> getMessage(String name){//查阅所借书
         List<Message> list = new ArrayList<Message>();

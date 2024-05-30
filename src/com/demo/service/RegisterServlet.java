@@ -3,7 +3,7 @@ package com.demo.service;
 import com.demo.bean.User;
 import com.demo.dao.UserDAo;
 
-import javax.servlet.ServletException;
+import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -15,7 +15,7 @@ import java.io.IOException;
 public class RegisterServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request,response);
+        doGet(request, response);
     }
 
     @Override
@@ -25,7 +25,7 @@ public class RegisterServlet extends HttpServlet {
         String name = request.getParameter("name");
         String password = request.getParameter("password");
         String id = request.getParameter("id");
-        String sex= request.getParameter("sex");
+        String sex = request.getParameter("sex");
         String telephone = request.getParameter("telephone");
         String email = request.getParameter("email");
 
@@ -40,7 +40,7 @@ public class RegisterServlet extends HttpServlet {
         UserDAo userDAo = new UserDAo();
         userDAo.addUser(user);
         JOptionPane.showMessageDialog(null, "注册成功，即将返回登录页面", "提示", JOptionPane.PLAIN_MESSAGE);
-        request.getRequestDispatcher("login.jsp").forward(request,response);
+        request.getRequestDispatcher("login.jsp").forward(request, response);
 
     }
 }

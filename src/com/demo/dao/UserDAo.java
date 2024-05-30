@@ -10,12 +10,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by ForMe
- * com.demo.dao
- * 2018/12/10
- * 17:19
- */
 public class UserDAo {
     public User Login(String name, String password){
         Connection connection = null;

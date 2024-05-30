@@ -9,8 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16c12b43-2b5b-40be-a596-c38f648f6586" name="Changes" comment="2024.5.29">
+    <list default="true" id="16c12b43-2b5b-40be-a596-c38f648f6586" name="Changes" comment="2024.5.30">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/service/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/service/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/service/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/service/RegisterServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/demo/service/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/service/RegisterServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -204,7 +207,9 @@
       <workItem from="1716895454414" duration="3323000" />
       <workItem from="1716900528110" duration="12323000" />
       <workItem from="1716915899283" duration="779000" />
-      <workItem from="1717028338741" duration="401000" />
+      <workItem from="1717028338741" duration="1216000" />
+      <workItem from="1717030073944" duration="757000" />
+      <workItem from="1717031149839" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="2024.5.23">
       <option name="closed" value="true" />
@@ -366,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716916669497</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="2024.5.29">
+      <option name="closed" value="true" />
+      <created>1717028924511</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1717028924512</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
