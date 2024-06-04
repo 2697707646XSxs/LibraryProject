@@ -28,9 +28,9 @@
       }
 %><br>
 <hr>
-<a href="/returnBook.jsp">还书</a><br>
-<a href="/borrowBook.jsp">借书</a><br>
+<a href="${pageContext.request.contextPath}/returnBook.jsp">还书</a><br>
+<a href="${pageContext.request.contextPath}/borrowBook.jsp">借书</a><br>
 <br>
-<a href="/loginout.jsp">注销</a><br><br>
+<a href="${pageContext.request.contextPath}/loginout.jsp">注销</a><br><br>
 </body>
 </html>
