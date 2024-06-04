@@ -117,8 +117,8 @@
         %>
     </div>
 
-        <a href="/returnBook.jsp" class="button">还书</a>
-        <a href="/borrowBook.jsp" class="button">借书</a>
+        <a href="${pageContext.request.contextPath}/returnBook.jsp" class="button">还书</a>
+        <a href="${pageContext.request.contextPath}/borrowBook.jsp" class="button">借书</a>
 
 
 </div>
