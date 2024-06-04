@@ -9,25 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16c12b43-2b5b-40be-a596-c38f648f6586" name="Changes" comment="2024.5.30">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bbb1175-1894-4492-94e7-3198f7f08dd3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9bbb1175-1894-4492-94e7-3198f7f08dd3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/bean/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/bean/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/bean/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/dao/MessageDAo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/dao/MessageDAo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/dao/UserDAo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/dao/UserDAo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/service/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/service/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/service/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/service/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/bean/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/bean/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/bean/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/dao/MessageDAo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/dao/MessageDAo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/dao/UserDAo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/dao/UserDAo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/service/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/service/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/service/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/service/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/service/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/service/LoginServlet.java" afterDir="false" />
-    </list>
+    <list default="true" id="16c12b43-2b5b-40be-a596-c38f648f6586" name="Changes" comment="2024.6.4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -228,7 +210,7 @@
       <workItem from="1717176760293" duration="299000" />
       <workItem from="1717177063859" duration="1558000" />
       <workItem from="1717178812916" duration="572000" />
-      <workItem from="1717480249009" duration="296000" />
+      <workItem from="1717480249009" duration="633000" />
     </task>
     <task id="LOCAL-00001" summary="2024.5.23">
       <option name="closed" value="true" />
@@ -430,7 +412,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717032729736</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="2024.6.4">
+      <option name="closed" value="true" />
+      <created>1717480790879</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1717480790879</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +443,8 @@
     <MESSAGE value="2024.5.28" />
     <MESSAGE value="2024.5.29" />
     <MESSAGE value="2024.5.30" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.5.30" />
+    <MESSAGE value="2024.6.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.6.4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
