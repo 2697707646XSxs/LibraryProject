@@ -111,7 +111,7 @@
             </div>
         </form>
         <div>
-           <a href="/loginout.jsp" class="logout-link">注销</a>
+           <a href="${pageContext.request.contextPath}/loginout.jsp" class="logout-link">注销</a>
         </div>
     </div>
 </div>
