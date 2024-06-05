@@ -29,6 +29,22 @@
             justify-content: space-between;
             margin: 30px;
         }
+        table,td,th{
+            border: 1px,solid,pink;
+            text-align: center;
+            font-family: 楷体, serif;
+            font-size: 25px;
+            color: blanchedalmond;
+        }
+        caption{
+            font-weight: bolder;
+            font-family: 楷体, serif;
+            font-size: 35px;
+            color: rgb(132, 180, 164);
+        }
+        th{
+            color: cornflowerblue;
+        }
     </style>
 </head>
 <body>
@@ -36,16 +52,32 @@
     <a href="${pageContext.request.contextPath}/loginout.jsp">注销</a>
 </div>
 <br><br>
+<table align="center" border="1" cellpadding="10" cellspacing="5" width="1400">
+    <caption>书籍陈列</caption>
+    <tr>
+        <th>书名</th>
+        <th>剩余数量</th>
+        <th>作者</th>
+        <th>书的价格</th>
+        <th>借书时间</th>
+        <th>出版社</th>
+    </tr>
 <%
     UserDAo userDAo = new UserDAo();
     List<String> list = userDAo.showBook();
-    out.write("<span class='custom-font'>");
     for(String message:list){
-        out.write(message + "<br><br>");
-        //out.println("<br>");
+        String[] spl = message.split("#");
+        out.write("<tr height='50'>");
+        for(int i = 0;i < 6;i ++)
+        {
+            out.write("<td>");
+            out.write(spl[i]);
+            out.write("</td>");
+        }
     }
     out.write("</span>");
-%><br><br>
+%>
+</table>
 <div id="return_borrow">
 <a href="${pageContext.request.contextPath}/returnBook.jsp">还书</a>
 <a href="${pageContext.request.contextPath}/borrowBook.jsp">借书</a>

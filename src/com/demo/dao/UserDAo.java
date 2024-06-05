@@ -10,6 +10,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Created by ForMe
+ * com.demo.dao
+ * 2018/12/10
+ * 17:19
+ */
 public class UserDAo {
     public User Login(String name, String password){
         Connection connection = null;
@@ -94,12 +100,12 @@ public class UserDAo {
             preparedStatement = connection.prepareStatement(sql);
             resultSet = preparedStatement.executeQuery();
             while(resultSet.next()){
-                String message = "书名：" + resultSet.getString("book_name")
-                        + "<--->剩余数量：" + resultSet.getInt("book_num")
-                        + "<--->作者为：" + resultSet.getString("book_writer")
-                        + "<--->书的价格为：" + resultSet.getInt("book_price")
-                        + "<--->出版时间为：" + resultSet.getString("publish_time")
-                        + "<--->出版社为：" + resultSet.getString("publish_house");
+                String message = resultSet.getString("book_name")
+                        + "#" + resultSet.getInt("book_num")
+                        + "#" + resultSet.getString("book_writer")
+                        + "#" + resultSet.getInt("book_price")
+                        + "#" + resultSet.getString("publish_time")
+                        + "#" + resultSet.getString("publish_house");
                 list.add(message);
 //                System.out.println(message);
                 //System.out.println();
