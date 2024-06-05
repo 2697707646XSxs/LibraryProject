@@ -10,15 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16c12b43-2b5b-40be-a596-c38f648f6586" name="Changes" comment="2024.6.5">
-      <change afterPath="$PROJECT_DIR$/web/success.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/dao/UserDAo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/dao/UserDAo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/getmessage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/getmessage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/showBooks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/showBooks.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/dao/UserDAo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/dao/UserDAo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/dao/UserDAo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/dao/UserDAo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/getmessage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/getmessage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/showBooks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/showBooks.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +35,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/demo/dao/UserDAo.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/web/WEB-INF/success.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_INSPECTION" />
   </component>
   <component name="LogFilters">
@@ -224,7 +217,9 @@
       <workItem from="1717177063859" duration="1558000" />
       <workItem from="1717178812916" duration="572000" />
       <workItem from="1717480249009" duration="1268000" />
-      <workItem from="1717563044795" duration="410000" />
+      <workItem from="1717563044795" duration="1277000" />
+      <workItem from="1717574552878" duration="755000" />
+      <workItem from="1717583018392" duration="265000" />
     </task>
     <task id="LOCAL-00001" summary="2024.5.23">
       <option name="closed" value="true" />
@@ -474,7 +469,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717563437386</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="2024.6.5">
+      <option name="closed" value="true" />
+      <created>1717563492327</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1717563492327</updated>
+    </task>
+    <task id="LOCAL-00033" summary="2024.6.5">
+      <option name="closed" value="true" />
+      <created>1717563742564</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1717563742564</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
