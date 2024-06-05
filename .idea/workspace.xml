@@ -10,7 +10,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16c12b43-2b5b-40be-a596-c38f648f6586" name="Changes" comment="2024.6.5">
+      <change afterPath="$PROJECT_DIR$/web/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/dao/UserDAo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/dao/UserDAo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/defeat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/defeat.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/borrowBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/borrowBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/borrowSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/borrowSuccess.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/dao/UserDAo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/dao/UserDAo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/service/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/service/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/defeat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/defeat.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/borrowBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/borrowBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/borrowSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/borrowSuccess.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +57,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/com/demo/dao/UserDAo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/web/WEB-INF/defeat.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/web/WEB-INF/success.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_INSPECTION" />
   </component>
   <component name="LogFilters">
@@ -220,6 +242,8 @@
       <workItem from="1717563044795" duration="1277000" />
       <workItem from="1717574552878" duration="755000" />
       <workItem from="1717583018392" duration="265000" />
+      <workItem from="1717585508268" duration="150000" />
+      <workItem from="1717593638408" duration="344000" />
     </task>
     <task id="LOCAL-00001" summary="2024.5.23">
       <option name="closed" value="true" />
@@ -485,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717563742564</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="2024.6.5">
+      <option name="closed" value="true" />
+      <created>1717585536184</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1717585536185</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
