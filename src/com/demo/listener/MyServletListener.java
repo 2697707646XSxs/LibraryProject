@@ -13,11 +13,14 @@ import java.util.Enumeration;
 /**
  *
  * 用于解决mysql内存溢出
+ * @author 26977
  */
 public class MyServletListener implements ServletContextListener {
+    @Override
     public void contextInitialized(ServletContextEvent servletContextEvent) {
     }
 
+    @Override
     public void contextDestroyed(ServletContextEvent servletContextEvent) {
         //这里如果Web应用拥有多个数据库的连接，可以一并关闭
         Enumeration<Driver> drivers = DriverManager.getDrivers();
