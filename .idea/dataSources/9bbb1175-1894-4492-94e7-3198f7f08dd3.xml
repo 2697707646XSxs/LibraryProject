@@ -743,7 +743,7 @@
     </schema>
     <schema id="233" parent="1" name="book">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-05-31.18:14:15</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-06-06.03:02:27</LastIntrospectionLocalTimestamp>
       <CollationName>utf8_general_ci</CollationName>
     </schema>
     <user id="234" parent="1" name="root">
@@ -814,6 +814,7 @@
     </column>
     <column id="249" parent="239" name="name">
       <DasType>varchar(15)|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="250" parent="239" name="password">
@@ -836,13 +837,31 @@
       <DasType>varchar(50)|0s</DasType>
       <Position>6</Position>
     </column>
-    <index id="255" parent="239" name="reader_pk">
+    <index id="255" parent="239" name="PRIMARY">
       <ColNames>name</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="256" parent="239" name="reader_pk">
+    <index id="256" parent="239" name="reader_pk">
+      <ColNames>name</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="257" parent="239" name="reader_pk_2">
+      <ColNames>name</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="258" parent="239" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="259" parent="239" name="reader_pk">
       <UnderlyingIndexName>reader_pk</UnderlyingIndexName>
+    </key>
+    <key id="260" parent="239" name="reader_pk_2">
+      <UnderlyingIndexName>reader_pk_2</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>
