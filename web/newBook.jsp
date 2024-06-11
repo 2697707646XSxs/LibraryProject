@@ -54,6 +54,15 @@
             text-decoration-line: none;
             color: #abc1ee;
         }
+
+        .btn {
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            margin-top: 40px;
+            background-image: linear-gradient(to right, #a6c1ee, #fbc2eb);
+            color: #fff;
+        }
     </style>
     <title>新增书籍</title>
 </head>
@@ -67,8 +76,8 @@
                     <tr>
                         <td>书籍数量:</td>
                         <td><input name="book_num" type="number" size="20" id="name"><span id="checkname"
-                                                                                         aria-required="true"
-                                                                                         placeholder="必填"></span>
+                                                                                           aria-required="true"
+                                                                                           placeholder="必填"></span>
                         </td>
                     </tr>
                     <tr>
@@ -83,7 +92,8 @@
                     </tr>
                     <tr>
                         <td>价格:</td>
-                        <td><input name="book_price" type="number" size="10" aria-required="true" placeholder="必填"></td>
+                        <td><input name="book_price" type="number" size="10" aria-required="true" placeholder="必填">
+                        </td>
                     </tr>
                     <tr>
                         <td>出版日期:</td>
@@ -101,6 +111,7 @@
                 <input type="reset" class="form-wrapper" value="重置"/>
             </div>
         </form>
+        <a class="form-wrapper" href="${pageContext.request.contextPath}/redirectServlet">返回主页面</a>
     </div>
 </div>
 </body>

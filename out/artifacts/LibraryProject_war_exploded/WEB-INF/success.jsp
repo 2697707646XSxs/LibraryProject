@@ -23,14 +23,13 @@
     </style>
 </head>
 <body>
-<%
+<%--<%
     String name = request.getParameter("name");
     session.setAttribute("name", name);
-%>
-
+%>--%>
 <div class="custom-font">
     <h1 id="successful"><%
-        out.write(name);
+        /*out.write(name);*/
     %>登录成功</h1>
     <script>
         var successful_msg = document.getElementById('successful');
@@ -38,9 +37,10 @@
             successful_msg.classList.add('hidden');
         },2000);
     </script>
-<%--    <hr>--%>
+    <hr>
     <br>
-    <a href="${pageContext.request.contextPath}/showBooks.jsp">查看剩余书籍情况</a>
+    <a href="${pageContext.request.contextPath}/showBooks.jsp">查看剩余书籍情况</a><br>
+    <a href="${pageContext.request.contextPath}/newBook.jsp">新增书籍</a>
     <br>
     <a href="${pageContext.request.contextPath}/returnBook.jsp">还书</a><br>
     <a href="${pageContext.request.contextPath}/borrowBook.jsp">借书</a><br>

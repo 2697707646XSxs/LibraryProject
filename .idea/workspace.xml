@@ -9,13 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16c12b43-2b5b-40be-a596-c38f648f6586" name="Changes" comment="2024.6.6">
+    <list default="true" id="16c12b43-2b5b-40be-a596-c38f648f6586" name="Changes" comment="2024.6.11">
       <change afterPath="$PROJECT_DIR$/src/com/demo/service/newBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/newBook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/service/redirectServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/dao/BookDAo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/dao/BookDAo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/dao/BookDAo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/dao/BookDAo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/dao/BookDAo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/dao/BookDAo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/newBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/newBook.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +83,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat Server.Tomcat 9.0.24.executor": "Debug",
+    "Tomcat Server.Tomcat 9.0.24.executor": "Run",
     "Tomcat Server.borrowBook.jsp.executor": "Run",
     "Tomcat Server.defeat.jsp.executor": "Run",
     "Tomcat Server.index.jsp.executor": "Run",
@@ -240,7 +244,7 @@
       <workItem from="1717594432348" duration="34000" />
       <workItem from="1717635183170" duration="21000" />
       <workItem from="1718085479583" duration="171000" />
-      <workItem from="1718085935284" duration="5376000" />
+      <workItem from="1718085935284" duration="9795000" />
     </task>
     <task id="LOCAL-00001" summary="2024.5.23">
       <option name="closed" value="true" />
@@ -538,7 +542,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717594287605</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="2024.6.11">
+      <option name="closed" value="true" />
+      <created>1718092055603</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1718092055603</updated>
+    </task>
+    <task id="LOCAL-00039" summary="2024.6.11">
+      <option name="closed" value="true" />
+      <created>1718092090339</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1718092090339</updated>
+    </task>
+    <task id="LOCAL-00040" summary="2024.6.11">
+      <option name="closed" value="true" />
+      <created>1718092120150</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1718092120150</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +577,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -564,7 +604,8 @@
     <MESSAGE value="2024.6.4" />
     <MESSAGE value="2024.6.5" />
     <MESSAGE value="2024.6.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.6.8" />
+    <MESSAGE value="2024.6.11" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.6.11" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
