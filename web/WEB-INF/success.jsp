@@ -29,7 +29,7 @@
 %>
 <div class="custom-font">
     <h1 id="successful"><%
-       /* out.write(name);*/
+        out.write(name);
     %>登录成功</h1>
     <script>
         var successful_msg = document.getElementById('successful');

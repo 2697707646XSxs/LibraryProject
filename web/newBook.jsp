@@ -32,16 +32,6 @@
             transform: translate(-50%, -50%);
         }
 
-        .form-wrapper {
-            align-content: center;
-            display: block; /* 将按钮显示为块级元素 */
-            margin: 0 auto; /* 使用auto值来水平居中 */
-            text-align: center;
-            padding: 10px;
-            width: 100%;
-            background-image: linear-gradient(to right, #a6c1ee, #fbc2eb);
-            color: #fff;
-        }
 
         .header {
             font-size: 38px;
@@ -57,9 +47,17 @@
 
         .btn {
             text-align: center;
+
+            background-image: linear-gradient(to right, #a6c1ee, #fbc2eb);
+            color: #fff;
+        }
+        .form-wrapper {
+            align-content: center;
+            display: block; /* 将按钮显示为块级元素 */
+            margin: 0 auto; /* 使用auto值来水平居中 */
+            text-align: center;
             padding: 10px;
             width: 100%;
-            margin-top: 40px;
             background-image: linear-gradient(to right, #a6c1ee, #fbc2eb);
             color: #fff;
         }
@@ -67,6 +65,10 @@
     <title>新增书籍</title>
 </head>
 <body>
+<%
+    String name = (String) session.getAttribute("name");
+    session.setAttribute("name", name);
+%>
 <div class="container">
     <div class="login-wrapper">
         <div class="header">新增书籍</div>
@@ -75,9 +77,7 @@
                 <table>
                     <tr>
                         <td>书籍数量:</td>
-                        <td><input name="book_num" type="number" size="20" id="name"><span id="checkname"
-                                                                                           aria-required="true"
-                                                                                           placeholder="必填"></span>
+                        <td><input name="book_num" type="number" size="20" id="name" aria-required="true" placeholder="必填">
                         </td>
                     </tr>
                     <tr>
@@ -111,7 +111,10 @@
                 <input type="reset" class="form-wrapper" value="重置"/>
             </div>
         </form>
-        <a class="form-wrapper" href="${pageContext.request.contextPath}/redirectServlet">返回主页面</a>
+        <form action="${pageContext.request.contextPath}/redirectServlet" method="post">
+            <input type="hidden" name="name" value="<%= name %>"/>
+            <button type="submit" class="btn">返回主页面</button>
+        </form>
     </div>
 </div>
 </body>

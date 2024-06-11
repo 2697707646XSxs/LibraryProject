@@ -7,6 +7,7 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.IOException;
+import java.nio.file.Files;
 
 /**
  * @author 26977
@@ -23,6 +24,8 @@ public class redirectServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=UTF-8");
-            request.getRequestDispatcher("/WEB-INF/success.jsp").forward(request,response);
+        String name = request.getParameter("name");
+        request.setAttribute("name", name);
+        request.getRequestDispatcher("/WEB-INF/success.jsp").forward(request, response);
     }
 }
