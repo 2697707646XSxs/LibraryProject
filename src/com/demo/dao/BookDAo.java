@@ -15,8 +15,10 @@ public class BookDAo {
         String sql = "insert into book(book_num,book_name,book_writer,book_price,publish_time,publish_house)" +
                 "values(?,?,?,?,?,?)";
         try {
+            // 获取数据库连接
+            connection = JdbcUtils.getConn();
             preparedStatement  = connection.prepareStatement(sql);
-            preparedStatement.setInt(1,book.getBook_num() + 1);
+            preparedStatement.setInt(1,book.getBook_num());
             preparedStatement.setString(2,book.getBook_name());
             preparedStatement.setString(3,book.getBook_writer());
             preparedStatement.setInt(4,book.getBook_price());
@@ -28,7 +30,6 @@ public class BookDAo {
         }finally{
             JdbcUtils.close(connection,preparedStatement);
         }
-
     }
 
     public Book retandborBook(String book_name){//借/还书是否存在本书
