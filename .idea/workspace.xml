@@ -9,17 +9,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16c12b43-2b5b-40be-a596-c38f648f6586" name="Changes" comment="2024.6.8">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bbb1175-1894-4492-94e7-3198f7f08dd3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9bbb1175-1894-4492-94e7-3198f7f08dd3.xml" afterDir="false" />
+    <list default="true" id="16c12b43-2b5b-40be-a596-c38f648f6586" name="Changes" comment="2024.6.6">
+      <change afterPath="$PROJECT_DIR$/src/com/demo/service/newBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/newBook.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/service/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibraryProject_war_exploded/WEB-INF/classes/com/demo/service/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/service/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library_Mangement_System/com/demo/service/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/service/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/service/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/dao/BookDAo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/dao/BookDAo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/success.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,7 +50,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/com/demo/dao/UserDAo.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/web/WEB-INF/defeat.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/WEB-INF/success.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/WEB-INF/success.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/web/success.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -229,6 +239,8 @@
       <workItem from="1717593638408" duration="660000" />
       <workItem from="1717594432348" duration="34000" />
       <workItem from="1717635183170" duration="21000" />
+      <workItem from="1718085479583" duration="171000" />
+      <workItem from="1718085935284" duration="5376000" />
     </task>
     <task id="LOCAL-00001" summary="2024.5.23">
       <option name="closed" value="true" />

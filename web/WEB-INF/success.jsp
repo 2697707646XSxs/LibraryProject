@@ -40,7 +40,8 @@
     </script>
 <%--    <hr>--%>
     <br>
-    <a href="${pageContext.request.contextPath}/showBooks.jsp">查看剩余书籍情况</a>
+    <a href="${pageContext.request.contextPath}/showBooks.jsp">查看剩余书籍情况</a><br>
+    <a href="${pageContext.request.contextPath}/newBook.jsp">新增书籍</a>
     <br>
     <a href="${pageContext.request.contextPath}/returnBook.jsp">还书</a><br>
     <a href="${pageContext.request.contextPath}/borrowBook.jsp">借书</a><br>
