@@ -13,7 +13,7 @@
             display: flex; /* 使用flex布局 */
             align-items: center; /* 垂直居中 */
             justify-content: center; /* 水平居中 */
-            height: 100vh; /* 设置高度为视口高度 */
+            height: 90%; /* 设置高度为视口高度 */
         }
         /* 背景图片样式 */
         .img {
@@ -48,7 +48,7 @@
             /*text-decoration: underline;*/
             margin-bottom: 20px; /* 上外边距为20px */
         }
-        a {
+        a  {
             display: block; /* 将链接显示为块级元素 */
             text-align: center; /* 链接文本居中 */
             margin-top: 20px; /* 上外边距为20px */
@@ -79,7 +79,8 @@
     <h1>提示</h1>
     <p class="1">对不起，登录失败。请重新登录。</p>
     <p class="mm">如果未注册点击下方注册</p>
-    <a href="${pageContext.request.contextPath}/register.jsp">立即注册</a>
+    <a  class="a2" href="${pageContext.request.contextPath}/login.jsp">登录</a>
+    <a  class="a1" href="${pageContext.request.contextPath}/register.jsp">立即注册</a>
 </div>
 </body>
 </html>
